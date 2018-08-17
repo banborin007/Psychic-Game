@@ -1,18 +1,17 @@
     //set div "class" beginning scores and number of guesses
-
-var wins = 0;
-var losses = 0;
-var guessLeft = 9;
+    var wins = 0;
+    var losses = 0;
+    var guessLeft = 9;
 
     //display "your guesses so far"
-var guesses = [];
+    var guesses = [];
 
     //letter options as array? *update: yes.
-var options = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", 
-"m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
+    var options = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", 
+    "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
     //add event for "when key is pressed on key down"
-document.onkeydown = function(event) {
+    document.onkeydown = function(event) {
     
     var userGuess = event.key;
     
