@@ -1,0 +1,57 @@
+h1 {
+    font-weight: bold;
+    color: purple;
+    font-size: 48px;
+    text-align: center;
+}
+
+body {
+    background-image: url("https://wallpapermemory.com/uploads/414/magneto-background-hd-1680x1050-18314.jpg");
+    background-size: 1400px 800px;
+    width: 1200px;
+    margin: auto;
+}
+
+img {
+    position: relative;
+    top: 120px;
+    right: 80px;
+    width: 450px;
+    height: 370px;
+}
+
+p {
+    position: relative;
+    top: 50px;
+    color: darkgoldenrod;
+    font-size: 28px;
+    text-align: center;
+    
+}
+
+audio {
+    position: relative;
+    left: 450px;
+    top: 30px;
+}
+
+@media only screen and (max-width: 980px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    body {
+        width: 100%;
+        height: 100%;
+    }
+}
