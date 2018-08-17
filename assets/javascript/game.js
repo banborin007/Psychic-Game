@@ -44,7 +44,7 @@ document.onkeydown = function(event) {
 
     //prompt end game
     if (wins === 10) {
-        alert("You can read my mind! NO WAY!!!")
+        alert("You can read my mind!... Welcome to the X-Men!!!")
     }
     //losses is set to 25 because the probability of a user selecting the matching letter is low.
     if (losses === 25) {
@@ -53,6 +53,7 @@ document.onkeydown = function(event) {
 
     //referred to rps game to tie the scores class with variables from js
     var html = 
+    "<p>Guess what letter I'm thinking of" +
     "<p>Wins: " + wins + "</p>" +
     "<p>Losses: " + losses + "</p>" +
     "<p>Guesses Left: " + guessLeft + "</p>" +
